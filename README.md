@@ -1,6 +1,20 @@
 # Low_Power_Configurable_Multi_Clock_Digital_System
 
-## 📘 Overview
+
+## 📋 Table of Contents
+
+1. [Overview](#overview)
+2. [Block Diagram](#Block-Diagram) 
+3. [System Architecture](#system-architecture)
+4. [Supported ALU Operations](#Supported-ALU-Operationss)
+5. [Register File Details](#Register-File-Details)
+6. [UART Communication Protocol](#uart-communication-protocol)
+7. [System Specifications](#System-Specificationss)
+8. [Testbench Operation Sequence](#Testbench-Operation-Sequence)
+13. [License](#license)
+
+    
+##  Overview
 
 RTL to GDS Implementation of Low_Power_Configurable_Multi_Clock_Digital_System which is responsible for receiving commands through UART receiver to do different system functions such as register file reading/writing or doing some processing using ALU block and send results as well as asynchronous FIFO to avoid data loss in different domains through UART transmitter communication protocol.
 
@@ -8,7 +22,7 @@ RTL to GDS Implementation of Low_Power_Configurable_Multi_Clock_Digital_System w
 ## Block Diagram
 ![block](https://i.ibb.co/pjm6pDmx/system.png)
 ---
-## 🧩 System Architecture
+##  System Architecture
 
 The system consists of **10 main blocks** grouped across **two clock domains**:
 
@@ -34,7 +48,7 @@ The system consists of **10 main blocks** grouped across **two clock domains**:
 
 ---
 
-## 🧮 Supported ALU Operations
+##  Supported ALU Operations
 
 - Arithmetic: `ADD`, `SUB`, `MUL`, `DIV`
 - Logic: `AND`, `OR`, `NAND`, `NOR`, `XOR`, `XNOR`
@@ -43,7 +57,7 @@ The system consists of **10 main blocks** grouped across **two clock domains**:
 
 ---
 
-## 💾 Register File Details
+##  Register File Details
 
 - 16 registers (addresses from `0x0` to `0x15`)
 - Registers `0x0` to `0x3` are reserved for system configuration and ALU operands
@@ -54,9 +68,9 @@ The system consists of **10 main blocks** grouped across **two clock domains**:
 
 ---
 
-## 📡 UART Communication Protocol
+##  UART Communication Protocol
 
-### 📝 Supported Commands
+###  Supported Commands
 
 | Command Type              | Frames | Description                         |
 |--------------------------|--------|-------------------------------------|
@@ -67,7 +81,7 @@ The system consists of **10 main blocks** grouped across **two clock domains**:
 
 ---
 
-## 🔧 System Specifications
+##  System Specifications
 
 - `REF_CLK` Frequency: **50 MHz**
 - `UART_CLK` Frequency: **3.6864 MHz**
@@ -76,7 +90,7 @@ The system consists of **10 main blocks** grouped across **two clock domains**:
 
 ---
 
-## 🧪 Testbench Operation Sequence
+##  Testbench Operation Sequence
 
 1. Initial system configuration via RegFile writes to `0x2`, `0x3`
 2. Master sends commands (RegFile / ALU)
@@ -88,5 +102,4 @@ The system consists of **10 main blocks** grouped across **two clock domains**:
 
 ---
 
-## 📂 Project Structure (Optional - Add if applicable)
 
