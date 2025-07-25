@@ -1,0 +1,199 @@
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Thu Aug 15 05:27:47 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     10
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      6
+
+Cells                                                              11
+    Cells do not drive (LINT-1)                                    11
+--------------------------------------------------------------------------------
+
+Warning: In design 'CLK_DIV', cell 'C161' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C349' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C350' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C351' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C352' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C385' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C387' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C389' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C82' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C83' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C130' does not drive any nets. (LINT-1)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[3]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[4]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[5]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[6]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL_WIDTH_REG8_fun4_ADDR4', output port 'o_Div_EN' is connected directly to 'logic 1'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Thu Aug 15 05:36:01 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     10
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      6
+
+Cells                                                              11
+    Cells do not drive (LINT-1)                                    11
+--------------------------------------------------------------------------------
+
+Warning: In design 'CLK_DIV', cell 'C161' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C349' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C350' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C351' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C352' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C385' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C387' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C389' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C82' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C83' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C130' does not drive any nets. (LINT-1)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[3]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[4]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[5]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[6]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL_WIDTH_REG8_fun4_ADDR4', output port 'o_Div_EN' is connected directly to 'logic 1'. (LINT-52)
+1
+Error: Current design is not defined. (UID-4)
+0
+Error: Current design is not defined. (UID-4)
+0
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Thu Aug 15 05:46:35 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     10
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      6
+
+Cells                                                              11
+    Cells do not drive (LINT-1)                                    11
+--------------------------------------------------------------------------------
+
+Warning: In design 'CLK_DIV', cell 'C161' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C349' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C350' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C351' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C352' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C385' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C387' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C389' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C82' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C83' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C130' does not drive any nets. (LINT-1)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[3]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[4]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[5]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[6]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL_WIDTH_REG8_fun4_ADDR4', output port 'o_Div_EN' is connected directly to 'logic 1'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Thu Aug 15 05:59:45 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     10
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      6
+
+Cells                                                              11
+    Cells do not drive (LINT-1)                                    11
+--------------------------------------------------------------------------------
+
+Warning: In design 'CLK_DIV', cell 'C161' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C349' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C350' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C351' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C352' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C385' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C387' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C389' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C82' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C83' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C130' does not drive any nets. (LINT-1)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[3]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[4]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[5]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[6]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL_WIDTH_REG8_fun4_ADDR4', output port 'o_Div_EN' is connected directly to 'logic 1'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Thu Aug 15 06:06:04 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     10
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      6
+
+Cells                                                              11
+    Cells do not drive (LINT-1)                                    11
+--------------------------------------------------------------------------------
+
+Warning: In design 'CLK_DIV', cell 'C161' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C349' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C350' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C351' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C352' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C385' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C387' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C389' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C82' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C83' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C130' does not drive any nets. (LINT-1)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[3]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[4]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[5]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[6]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL_WIDTH_REG8_fun4_ADDR4', output port 'o_Div_EN' is connected directly to 'logic 1'. (LINT-52)
+1

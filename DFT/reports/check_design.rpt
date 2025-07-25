@@ -1,0 +1,613 @@
+Warning: Design 'FINAL_SYS' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Sat Aug 17 06:30:29 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     22
+    Multiply driven inputs (LINT-6)                                 2
+    Unconnected ports (LINT-28)                                    10
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      6
+
+Cells                                                              11
+    Cells do not drive (LINT-1)                                    11
+
+Nets                                                                6
+    Unloaded nets (LINT-2)                                          6
+--------------------------------------------------------------------------------
+
+Warning: In design 'CLK_DIV', cell 'C161' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C349' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C350' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C351' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C352' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C385' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C387' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C389' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C82' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C83' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C130' does not drive any nets. (LINT-1)
+Warning: In design 'FINAL_SYS', net 'UART_SCAN_CLK' driven by pin '__tmp123/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'RX_SCAN_CLK' driven by pin '__tmp124/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'TX_SCAN_CLK' driven by pin '__tmp125/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'SYNC_REF_SCAN_RST' driven by pin '__tmp126/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'SYNC_UART_SCAN_RST' driven by pin '__tmp127/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'REF_SCAN_CLK' driven by pin '__tmp122/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', input port 'scan_rst' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'FINAL_SYS', input port 'i_RST' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'FINAL_SYS', port 'test_mode' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[3]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[4]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[5]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[6]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL_WIDTH_REG8_fun4_ADDR4', output port 'o_Div_EN' is connected directly to 'logic 1'. (LINT-52)
+1
+Warning: Design 'FINAL_SYS' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Sat Aug 17 06:41:44 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     22
+    Multiply driven inputs (LINT-6)                                 2
+    Unconnected ports (LINT-28)                                    10
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      6
+
+Cells                                                              11
+    Cells do not drive (LINT-1)                                    11
+
+Nets                                                                6
+    Unloaded nets (LINT-2)                                          6
+--------------------------------------------------------------------------------
+
+Warning: In design 'CLK_DIV', cell 'C161' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C349' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C350' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C351' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C352' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C385' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C387' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C389' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C82' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C83' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C130' does not drive any nets. (LINT-1)
+Warning: In design 'FINAL_SYS', net 'UART_SCAN_CLK' driven by pin '__tmp123/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'RX_SCAN_CLK' driven by pin '__tmp124/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'TX_SCAN_CLK' driven by pin '__tmp125/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'SYNC_REF_SCAN_RST' driven by pin '__tmp126/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'SYNC_UART_SCAN_RST' driven by pin '__tmp127/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'REF_SCAN_CLK' driven by pin '__tmp122/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', input port 'scan_rst' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'FINAL_SYS', input port 'i_RST' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'FINAL_SYS', port 'test_mode' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[3]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[4]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[5]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[6]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL_WIDTH_REG8_fun4_ADDR4', output port 'o_Div_EN' is connected directly to 'logic 1'. (LINT-52)
+1
+Warning: Design 'FINAL_SYS' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Sat Aug 17 06:59:24 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     22
+    Multiply driven inputs (LINT-6)                                 2
+    Unconnected ports (LINT-28)                                    10
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      6
+
+Cells                                                              11
+    Cells do not drive (LINT-1)                                    11
+
+Nets                                                                6
+    Unloaded nets (LINT-2)                                          6
+--------------------------------------------------------------------------------
+
+Warning: In design 'CLK_DIV', cell 'C161' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C349' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C350' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C351' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C352' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C385' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C387' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C389' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C82' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C83' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C130' does not drive any nets. (LINT-1)
+Warning: In design 'FINAL_SYS', net 'UART_SCAN_CLK' driven by pin '__tmp123/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'RX_SCAN_CLK' driven by pin '__tmp124/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'TX_SCAN_CLK' driven by pin '__tmp125/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'SYNC_REF_SCAN_RST' driven by pin '__tmp126/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'SYNC_UART_SCAN_RST' driven by pin '__tmp127/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'REF_SCAN_CLK' driven by pin '__tmp122/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', input port 'scan_rst' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'FINAL_SYS', input port 'i_RST' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'FINAL_SYS', port 'test_mode' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[3]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[4]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[5]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[6]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL_WIDTH_REG8_fun4_ADDR4', output port 'o_Div_EN' is connected directly to 'logic 1'. (LINT-52)
+1
+Error: Current design is not defined. (UID-4)
+0
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Sat Aug 17 07:25:35 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     19
+    Unconnected ports (LINT-28)                                     9
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      6
+
+Cells                                                              11
+    Cells do not drive (LINT-1)                                    11
+
+Nets                                                                7
+    Unloaded nets (LINT-2)                                          7
+--------------------------------------------------------------------------------
+
+Warning: In design 'CLK_DIV', cell 'C161' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C349' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C350' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C351' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C352' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C385' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C387' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C389' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C82' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C83' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C130' does not drive any nets. (LINT-1)
+Warning: In design 'FINAL_SYS', net 'UART_SCAN_CLK' driven by pin 'UART_CLK_MUX2X1/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'RX_SCAN_CLK' driven by pin 'RX_CLK_MUX2X1/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'TX_SCAN_CLK' driven by pin 'TX_CLK_MUX2X1/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'P_RST_SCAN_RST' driven by pin 'P_RST_MUX2X1/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'SYNC_REF_SCAN_RST' driven by pin 'REF_RST_MUX2X1/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'SYNC_UART_SCAN_RST' driven by pin 'UART_RST_MUX2X1/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'REF_SCAN_CLK' driven by pin 'REF_CLK_MUX2X1/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[3]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[4]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[5]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[6]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL_WIDTH_REG8_fun4_ADDR4', output port 'o_Div_EN' is connected directly to 'logic 1'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Sat Aug 17 22:49:10 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     29
+    Unconnected ports (LINT-28)                                     9
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      6
+    Externally driven outputs (LINT-64)                             2
+    Port direction conflicts with RTL (LINT-68)                     8
+
+Cells                                                              15
+    Cells do not drive (LINT-1)                                    11
+    Cells have undriven hier pins (LINT-59)                         4
+
+Nets                                                                8
+    Undriven nets (LINT-3)                                          4
+    Net type is unknown (LINT-38)                                   4
+--------------------------------------------------------------------------------
+
+Warning: In design 'CLK_DIV', cell 'C161' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C349' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C350' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C351' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C352' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C385' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C387' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C389' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C82' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C83' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C130' does not drive any nets. (LINT-1)
+Warning: In design 'FINAL_SYS', net 'i_RX_CLK' has no drivers.  Logic 0 assumed. (LINT-3)
+Warning: In design 'FINAL_SYS', net 'i_TX_CLK' has no drivers.  Logic 0 assumed. (LINT-3)
+Warning: In design 'FINAL_SYS', net 'SYNC_RST_1' has no drivers.  Logic 0 assumed. (LINT-3)
+Warning: In design 'FINAL_SYS', net 'SYNC_RST_2' has no drivers.  Logic 0 assumed. (LINT-3)
+Warning: In design 'FINAL_SYS', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[3]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[4]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[5]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[6]'. (LINT-31)
+Warning: In design 'FINAL_SYS', net 'RX_CLK_MUX2X1/out' has multiple drivers (unknown wired-logic type). (LINT-38)
+Warning: In design 'FINAL_SYS', net 'TX_CLK_MUX2X1/out' has multiple drivers (unknown wired-logic type). (LINT-38)
+Warning: In design 'FINAL_SYS', net 'REF_RST_MUX2X1/out' has multiple drivers (unknown wired-logic type). (LINT-38)
+Warning: In design 'FINAL_SYS', net 'UART_RST_MUX2X1/out' has multiple drivers (unknown wired-logic type). (LINT-38)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL_WIDTH_REG8_fun4_ADDR4', output port 'o_Div_EN' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'FINAL_SYS', input pin 'IN0' of hierarchical cell 'RX_CLK_MUX2X1' has one or more internal loads, but is not connected to any nets. 'Logic 0' is assumed. (LINT-59)
+Warning: In design 'FINAL_SYS', input pin 'IN0' of hierarchical cell 'TX_CLK_MUX2X1' has one or more internal loads, but is not connected to any nets. 'Logic 0' is assumed. (LINT-59)
+Warning: In design 'FINAL_SYS', input pin 'IN0' of hierarchical cell 'REF_RST_MUX2X1' has one or more internal loads, but is not connected to any nets. 'Logic 0' is assumed. (LINT-59)
+Warning: In design 'FINAL_SYS', input pin 'IN0' of hierarchical cell 'UART_RST_MUX2X1' has one or more internal loads, but is not connected to any nets. 'Logic 0' is assumed. (LINT-59)
+Warning: In design 'RST_Sync_stages2', output port 'o_Sync_rst' is driven from the outside. (LINT-64)
+Warning: In design 'CLK_DIV', output port 'o_div_clk' is driven from the outside. (LINT-64)
+Warning: In design 'U_CLK_DIV_2', output port 'o_div_clk' is not being used in accordance with its stated direction. (LINT-68)
+Warning: In design 'U_CLK_DIV_1', output port 'o_div_clk' is not being used in accordance with its stated direction. (LINT-68)
+Warning: In design 'U_RST_Sync_2', output port 'o_Sync_rst' is not being used in accordance with its stated direction. (LINT-68)
+Warning: In design 'U_RST_Sync_1', output port 'o_Sync_rst' is not being used in accordance with its stated direction. (LINT-68)
+Warning: In design 'UART_RST_MUX2X1', output port 'out' is not being used in accordance with its stated direction. (LINT-68)
+Warning: In design 'REF_RST_MUX2X1', output port 'out' is not being used in accordance with its stated direction. (LINT-68)
+Warning: In design 'TX_CLK_MUX2X1', output port 'out' is not being used in accordance with its stated direction. (LINT-68)
+Warning: In design 'RX_CLK_MUX2X1', output port 'out' is not being used in accordance with its stated direction. (LINT-68)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Sat Aug 17 23:29:05 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     29
+    Unconnected ports (LINT-28)                                     9
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      6
+    Externally driven outputs (LINT-64)                             2
+    Port direction conflicts with RTL (LINT-68)                     8
+
+Cells                                                              15
+    Cells do not drive (LINT-1)                                    11
+    Cells have undriven hier pins (LINT-59)                         4
+
+Nets                                                                8
+    Undriven nets (LINT-3)                                          4
+    Net type is unknown (LINT-38)                                   4
+--------------------------------------------------------------------------------
+
+Warning: In design 'CLK_DIV', cell 'C161' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C349' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C350' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C351' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C352' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C385' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C387' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C389' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C82' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C83' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C130' does not drive any nets. (LINT-1)
+Warning: In design 'FINAL_SYS', net 'i_RX_CLK' has no drivers.  Logic 0 assumed. (LINT-3)
+Warning: In design 'FINAL_SYS', net 'i_TX_CLK' has no drivers.  Logic 0 assumed. (LINT-3)
+Warning: In design 'FINAL_SYS', net 'SYNC_RST_1' has no drivers.  Logic 0 assumed. (LINT-3)
+Warning: In design 'FINAL_SYS', net 'SYNC_RST_2' has no drivers.  Logic 0 assumed. (LINT-3)
+Warning: In design 'FINAL_SYS', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[3]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[4]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[5]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[6]'. (LINT-31)
+Warning: In design 'FINAL_SYS', net 'RX_CLK_MUX2X1/out' has multiple drivers (unknown wired-logic type). (LINT-38)
+Warning: In design 'FINAL_SYS', net 'TX_CLK_MUX2X1/out' has multiple drivers (unknown wired-logic type). (LINT-38)
+Warning: In design 'FINAL_SYS', net 'REF_RST_MUX2X1/out' has multiple drivers (unknown wired-logic type). (LINT-38)
+Warning: In design 'FINAL_SYS', net 'UART_RST_MUX2X1/out' has multiple drivers (unknown wired-logic type). (LINT-38)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL_WIDTH_REG8_fun4_ADDR4', output port 'o_Div_EN' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'FINAL_SYS', input pin 'IN0' of hierarchical cell 'RX_CLK_MUX2X1' has one or more internal loads, but is not connected to any nets. 'Logic 0' is assumed. (LINT-59)
+Warning: In design 'FINAL_SYS', input pin 'IN0' of hierarchical cell 'TX_CLK_MUX2X1' has one or more internal loads, but is not connected to any nets. 'Logic 0' is assumed. (LINT-59)
+Warning: In design 'FINAL_SYS', input pin 'IN0' of hierarchical cell 'REF_RST_MUX2X1' has one or more internal loads, but is not connected to any nets. 'Logic 0' is assumed. (LINT-59)
+Warning: In design 'FINAL_SYS', input pin 'IN0' of hierarchical cell 'UART_RST_MUX2X1' has one or more internal loads, but is not connected to any nets. 'Logic 0' is assumed. (LINT-59)
+Warning: In design 'RST_Sync_stages2', output port 'o_Sync_rst' is driven from the outside. (LINT-64)
+Warning: In design 'CLK_DIV', output port 'o_div_clk' is driven from the outside. (LINT-64)
+Warning: In design 'U_CLK_DIV_2', output port 'o_div_clk' is not being used in accordance with its stated direction. (LINT-68)
+Warning: In design 'U_CLK_DIV_1', output port 'o_div_clk' is not being used in accordance with its stated direction. (LINT-68)
+Warning: In design 'U_RST_Sync_2', output port 'o_Sync_rst' is not being used in accordance with its stated direction. (LINT-68)
+Warning: In design 'U_RST_Sync_1', output port 'o_Sync_rst' is not being used in accordance with its stated direction. (LINT-68)
+Warning: In design 'UART_RST_MUX2X1', output port 'out' is not being used in accordance with its stated direction. (LINT-68)
+Warning: In design 'REF_RST_MUX2X1', output port 'out' is not being used in accordance with its stated direction. (LINT-68)
+Warning: In design 'TX_CLK_MUX2X1', output port 'out' is not being used in accordance with its stated direction. (LINT-68)
+Warning: In design 'RX_CLK_MUX2X1', output port 'out' is not being used in accordance with its stated direction. (LINT-68)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Sun Aug 18 00:19:20 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     19
+    Unconnected ports (LINT-28)                                     9
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      6
+
+Cells                                                              14
+    Cells do not drive (LINT-1)                                    11
+    Leaf pins connected to undriven nets (LINT-58)                  1
+    Cells have undriven hier pins (LINT-59)                         2
+
+Nets                                                                2
+    Unloaded nets (LINT-2)                                          1
+    Undriven nets (LINT-3)                                          1
+--------------------------------------------------------------------------------
+
+Warning: In design 'CLK_DIV', cell 'C161' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C349' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C350' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C351' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C352' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C385' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C387' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C389' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C82' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C83' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C130' does not drive any nets. (LINT-1)
+Warning: In design 'FINAL_SYS', net 'P_RST_SCAN_RSTw' driven by pin 'P_RST_MUX2X1/out' has no loads. (LINT-2)
+Warning: In design 'FINAL_SYS', net 'P_RST_SCAN_RST' has no drivers.  Logic 0 assumed. (LINT-3)
+Warning: In design 'FINAL_SYS', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[3]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[4]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[5]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[6]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL_WIDTH_REG8_fun4_ADDR4', output port 'o_Div_EN' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'RST_Sync_stages2', input pin 'A' of leaf cell 'I_0' is connected to undriven net 'i_rst'.  (LINT-58)
+Warning: In design 'FINAL_SYS', input pin 'i_rst' of hierarchical cell 'U_RST_Sync_1' has one or more internal loads, but is not connected to any nets. 'Logic 0' is assumed. (LINT-59)
+Warning: In design 'FINAL_SYS', input pin 'i_rst' of hierarchical cell 'U_RST_Sync_2' has one or more internal loads, but is not connected to any nets. 'Logic 0' is assumed. (LINT-59)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Sun Aug 18 01:02:21 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     19
+    Unconnected ports (LINT-28)                                     9
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      6
+
+Cells                                                              11
+    Cells do not drive (LINT-1)                                    11
+--------------------------------------------------------------------------------
+
+Warning: In design 'CLK_DIV', cell 'C161' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C349' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C350' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C351' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C352' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C385' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C387' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C389' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C82' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C83' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C130' does not drive any nets. (LINT-1)
+Warning: In design 'FINAL_SYS', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[3]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[4]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[5]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[6]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL_WIDTH_REG8_fun4_ADDR4', output port 'o_Div_EN' is connected directly to 'logic 1'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Sat Aug 31 22:26:34 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     19
+    Unconnected ports (LINT-28)                                     9
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      6
+
+Cells                                                              11
+    Cells do not drive (LINT-1)                                    11
+--------------------------------------------------------------------------------
+
+Warning: In design 'CLK_DIV', cell 'C161' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C349' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C350' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C351' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C352' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C385' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C387' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C389' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C82' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C83' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C130' does not drive any nets. (LINT-1)
+Warning: In design 'FINAL_SYS', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[3]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[4]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[5]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[6]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL_WIDTH_REG8_fun4_ADDR4', output port 'o_Div_EN' is connected directly to 'logic 1'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Sun Sep  1 00:14:35 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     19
+    Unconnected ports (LINT-28)                                     9
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      6
+
+Cells                                                              11
+    Cells do not drive (LINT-1)                                    11
+--------------------------------------------------------------------------------
+
+Warning: In design 'CLK_DIV', cell 'C161' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C349' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C350' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C351' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C352' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C385' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C387' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C389' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C82' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C83' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C130' does not drive any nets. (LINT-1)
+Warning: In design 'FINAL_SYS', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SI[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'FINAL_SYS', port 'SO[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[3]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[4]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[5]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to output port 'o_div_ratio[6]'. (LINT-31)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'DIV_MUX', output port 'o_div_ratio[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL_WIDTH_REG8_fun4_ADDR4', output port 'o_Div_EN' is connected directly to 'logic 1'. (LINT-52)
+1

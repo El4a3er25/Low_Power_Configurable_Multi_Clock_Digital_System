@@ -1,0 +1,25 @@
+ 
+****************************************
+Report : port
+Design : FINAL_SYS
+Version: K-2015.06
+Date   : Thu Aug 15 06:06:30 2024
+****************************************
+
+
+
+Attributes:
+    d - dont_touch_network
+
+                       Pin      Wire     Max     Max     Connection
+Port           Dir     Load     Load     Trans   Cap     Class      Attrs
+--------------------------------------------------------------------------------
+RX_IN          in      0.0000   0.0000    1.50    0.18   --         
+i_REF_CLK      in      0.0000   0.0000   --      --      --         d
+i_RST          in      0.0000   0.0000   --      --      --         
+i_UART_CLK     in      0.0000   0.0000   --      --      --         d
+TX_OUT         out     0.1000   0.0000   --      --      --         
+o_PAR_ERR      out     0.1000   0.0000   --      --      --         
+o_framing_ERR  out     0.1000   0.0000   --      --      --         
+
+1
